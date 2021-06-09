@@ -1,0 +1,24 @@
+/* Paleta de cor 
+
+    Amarelo: #EFD665
+    Azul: #31A9DC
+    Cyan: #7AD6FD
+    Verde: #56D581
+    Cinza: #777777
+    Grafite: #3E4140
+
+*/
+
+/* Header */
+
+.header{
+    background-color: #31A9DC;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.logo{
+    width: 10rem;
+}
+
