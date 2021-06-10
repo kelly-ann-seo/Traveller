@@ -9,6 +9,11 @@
 
 */
 
+p,h1,h2,h3,a{
+    font-family: 'Poppins', sans-serif;
+
+}
+
 /* Header */
 
 .header{
@@ -25,7 +30,6 @@
 }
 
 a {
-    font-family: 'Poppins', sans-serif;
     font-weight:700;
     text-decoration: none;
     color: #ffffff
@@ -64,7 +68,6 @@ footer{
 }
 
 .copy{
-    font-family:'Poppins', sans-serif;
     font-weight: 600;
     color: #EFD665;
     margin-left: 1rem;
@@ -98,21 +101,71 @@ footer{
 }
 
 .equipe{
-    font-family:'Poppins', sans-serif;
     color:#31A9DC;
     margin-left: 5rem;
     font-size: 2.5rem;
 }
 
 .name{
-    font-family:'Poppins', sans-serif;
     font-weight: 700;
     color: #EFD665;
     font-size: 1.2rem;
 }
 
 .facts-text{
-    font-family: 'Poppins', sans-serif;
     font-weight: 300;
     color: #777777;
 }
+
+/* Home */
+
+.banner{
+    background-color: #7AD6FD;
+    display:flex;
+    flex-direction: row;
+    padding: 2rem;
+}
+
+.plane-img{
+    width: 33rem;
+    margin-left: 5rem;
+}
+
+
+.banner-text{
+    font-weight:500;
+    margin-bottom: 1rem;
+    color: #ffffff;
+    margin-top: 5rem;
+    margin-left: 7rem;
+    font-size: 2.5rem;
+    max-width: 25rem;
+}
+
+.icones{
+    display:flex;
+    flex-direction: row;
+}
+
+.icon{
+    max-width: 5rem;
+    margin-left: 10rem;
+}
+
+.icon-text{
+    font-weight: 300;
+    color: #777777;
+    font-size: 1.5;
+    padding: 2rem;
+    text-align:left;
+}
+
+h2{
+    color: #3E4140;
+    text-align: center;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    font-size: 2rem;
+}
+
+world{}
