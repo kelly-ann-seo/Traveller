@@ -79,3 +79,40 @@ footer{
     margin-right: 2rem;
 
 }
+
+/*Sobre Nós*/
+
+.team{
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 5rem;
+    margin-left: 4rem;
+
+}
+.team-img{
+    width: 10rem;
+}
+
+.person{
+    width: 15rem;
+}
+
+.equipe{
+    font-family:'Poppins', sans-serif;
+    color:#31A9DC;
+    margin-left: 5rem;
+    font-size: 2.5rem;
+}
+
+.name{
+    font-family:'Poppins', sans-serif;
+    font-weight: 700;
+    color: #EFD665;
+    font-size: 1.2rem;
+}
+
+.facts-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #777777;
+}
