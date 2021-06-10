@@ -168,4 +168,33 @@ h2{
     font-size: 2rem;
 }
 
-world{}
+.world-text{
+    display:flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.project-text{
+    margin-top: 5rem;
+    margin-left: 2rem;
+    max-width: 30rem;
+    margin-left: 8rem;
+
+}
+
+.world{
+
+    width: 20rem;
+    margin-bottom: 2rem;
+    margin-left: 10rem;
+
+}
+
+hr {
+    border: 1px solid #EFD665;
+}
+
+.plane-column{
+    margin-top: 2.5rem;
+}
