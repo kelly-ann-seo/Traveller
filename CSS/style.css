@@ -26,6 +26,7 @@ p,h1,h2,h3,a{
 
 .logo{
     width: 10rem;
+    min-width: 10rem;
 
 }
 
@@ -198,3 +199,26 @@ hr {
 .plane-column{
     margin-top: 2.5rem;
 }
+
+/*O que fazer*/
+
+.banner-destino{
+    background-color:#7AD6FD;
+    padding:8rem;
+
+}
+.titulo-destino{
+    color:#ffffff;
+    margin-left: 23rem;
+}
+
+.search-bar{
+    display: flex;
+    flex-direction: row;
+    border: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 40rem;
+    margin-left: 7rem;
+}
+
