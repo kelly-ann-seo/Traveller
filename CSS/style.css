@@ -67,4 +67,15 @@ footer{
     font-family:'Poppins', sans-serif;
     font-weight: 600;
     color: #EFD665;
+    margin-left: 1rem;
+}
+
+.footer-menu{
+    margin-left: 20rem;
+    margin-top: 1rem;
+}
+
+.footer-item{
+    margin-right: 2rem;
+
 }
