@@ -274,4 +274,12 @@ hr {
     border-radius: 0.5rem;
 }
 
+/*O que fazer Entretenimento */
+
+.btn:hover,
+.active {
+    color: #ffffff;
+    background-color: #EFD665;
+}
+
 
