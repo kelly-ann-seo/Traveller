@@ -9,9 +9,8 @@
 
 */
 
-p,h1,h2,h3,a{
+p,h1,h2,h3,a,ul {
     font-family: 'Poppins', sans-serif;
-
 }
 
 /* Header */
@@ -20,21 +19,19 @@ p,h1,h2,h3,a{
     background-color: #31A9DC;
     display: flex;
     flex-direction: row;
-    padding: 1rem;
+    padding: 1%;
     justify-content: flex-start;
 }
 
 .logo{
     width: 10rem;
     min-width: 10rem;
-
 }
 
 a {
     font-weight:700;
     text-decoration: none;
     color: #ffffff
-
 }
 
 .home{
@@ -52,8 +49,8 @@ a {
 .menu{
     display: flex;
     flex-direction: row;
-    margin-top: 0.8rem;
-    margin-left: 20rem;
+    align-items: center;
+    padding-left: 5%;
 }
 
 .menu-item{
@@ -66,6 +63,8 @@ footer{
     background-color: #31A9DC;
     display: flex;
     flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .copy{
@@ -181,15 +180,12 @@ h2{
     margin-left: 2rem;
     max-width: 30rem;
     margin-left: 8rem;
-
 }
 
 .world{
-
     width: 20rem;
     margin-bottom: 2rem;
     margin-left: 10rem;
-
 }
 
 hr {
@@ -205,11 +201,14 @@ hr {
 .banner-destino{
     background-color:#7AD6FD;
     padding:8rem;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 .titulo-destino{
     color:#ffffff;
-    margin-left: 23rem;
 }
 
 .search-bar{
@@ -219,6 +218,60 @@ hr {
     padding: 1rem;
     border-radius: 0.5rem;
     width: 40rem;
-    margin-left: 7rem;
+    font-family: 'Poppins', sans-serif;;
 }
+
+.btn {
+    border-radius: 0.5rem;
+    border-color: #EFD665;
+    border-style: solid;
+    background: #ffffff;
+    color: #EFD665;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.info-details {
+    color: #3E4140;
+    padding: 1rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.block {
+    padding: 1rem;
+}
+
+.rest-img {
+    border-radius: 0.5rem;
+}
+
+.inside-img {
+    display: flex;
+    flex-direction: row;
+    background-color: #7AD6FD;
+    justify-content: space-around;
+    font-weight: bold;
+    border-radius: 0.5rem;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    background-color: #EFD665;
+    justify-content: space-around;
+    border-radius: 0.5rem;
+}
+
 
