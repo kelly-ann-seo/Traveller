@@ -274,7 +274,7 @@ hr {
     border-radius: 0.5rem;
 }
 
-/*O que fazer Entretenimento */
+/*O que fazer Entretenimento e Restaurante */
 
 .btn:hover,
 .active {
@@ -282,4 +282,18 @@ hr {
     background-color: #EFD665;
 }
 
+/*Restaurante Details*/
 
+.search-bar-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-bar-2 {
+    border: 3rem, solid, #3E4140;
+    border-radius: 0.5rem;
+    padding: 0.7rem;
+    width: 70%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+}
