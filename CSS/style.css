@@ -64,6 +64,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
 }
 
 .copy{
@@ -271,6 +272,10 @@ hr {
     background-color: #EFD665;
     justify-content: space-around;
     border-radius: 0.5rem;
+}
+
+.more{
+    padding-top: 1rem;
 }
 
 /*O que fazer Entretenimento e Restaurante */
