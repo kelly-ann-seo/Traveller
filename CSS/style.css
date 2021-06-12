@@ -251,6 +251,7 @@ hr {
 
 .block {
     padding: 1rem;
+    position: relative;
 }
 
 .rest-img {
@@ -260,10 +261,13 @@ hr {
 .inside-img {
     display: flex;
     flex-direction: row;
-    background-color: #7AD6FD;
-    justify-content: space-around;
-    font-weight: bold;
+    justify-content: space-between;
     border-radius: 0.5rem;
+    width: 80%;
+    top: 20px;
+    left: 30px;
+    position: absolute;
+    color: #ffffff;
 }
 
 .details {
@@ -276,6 +280,13 @@ hr {
 
 .more{
     padding-top: 1rem;
+}
+
+.avaliacao {
+    background-image: url("../imgs/GT_star.svg");
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    padding-left: 30px;
 }
 
 /*O que fazer Entretenimento e Restaurante */
