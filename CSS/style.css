@@ -63,8 +63,8 @@ footer{
     background-color: #31A9DC;
     display: flex;
     flex-direction: row;
-    width: 100%;
     justify-content: space-between;
+    width: 100%;
 }
 
 .copy{
@@ -274,6 +274,10 @@ hr {
     border-radius: 0.5rem;
 }
 
+.more{
+    padding-top: 1rem;
+}
+
 /*O que fazer Entretenimento e Restaurante */
 
 .btn:hover,
@@ -287,13 +291,71 @@ hr {
 .search-bar-details {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    padding-bottom: 1rem;
 }
 
 .search-bar-2 {
     border: 3rem, solid, #3E4140;
     border-radius: 0.5rem;
-    padding: 0.7rem;
-    width: 70%;
+    padding: 0.6rem;
+    width: 80%;
     font-family: 'Poppins', sans-serif;
     font-size: 1.3rem;
+}
+
+.back-results {
+    color: #EFD665;
+}   
+
+.item-detail {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-left {
+    float: left;
+    padding-right: 2rem;
+    min-width: 30%;
+}
+
+.details-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.estab-title {
+    padding-right: 3rem;
+}
+
+.nota {
+    padding-right: 3rem;
+    color: #EFD665;
+}
+
+.money {
+    color: #56D581;
+}
+
+.estab-text {
+    width: 70%;
+}
+
+.map {
+    width: 70%;
+}
+
+.endereco {
+    color: #31A9DC;
+    font-weight: bold;
+}
+
+.infos-estabelecimento {
+    color: #EFD665;
+    line-height: 0.3rem;
+    font-weight: bold;
 }
